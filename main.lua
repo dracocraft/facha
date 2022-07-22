@@ -647,7 +647,7 @@ Groups.Keybinds = Tabs.Main:AddLeftGroupbox('Keybinds')
 
 Groups.Credits = Tabs.Main:AddRightGroupbox('Credits')
     Groups.Credits:AddLabel('<font color="#3da5ff">Facha</font> - script')
-    Groups.Credits:AddLabel('<font color="#de6cff">T4N</font> - contributor')
+    Groups.Credits:AddLabel('<font color="#de6cff">Laser Sigma</font> - contributor')
 
 Groups.Unlockables = Tabs.Main:AddRightGroupbox('Unlockables')
     Groups.Unlockables:AddButton('Unlock developer notes', ActivateUnlockables)
@@ -658,7 +658,7 @@ Groups.Misc = Tabs.Main:AddRightGroupbox('Miscellaneous')
     Groups.Misc:AddDivider()
     Groups.Misc:AddButton('Unload script', function() pcall(shared._unload) end)
     Groups.Misc:AddButton('Copy discord', function()
-        if pcall(setclipboard, "https://dsc.gg/t4n") then
+        if pcall(setclipboard, "https://dsc.gg/stigma exploit" then
             UI:Notify('Link copiado a tu portapapeles!', 5)
         end
     end)
